@@ -1,0 +1,23 @@
+.page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    padding-top: 180px;
+    &__input{
+        width: 300px;
+        height: 30px;
+        border: none;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    &__but{
+        padding: 10px 25px;
+        background-color: #65D510;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
